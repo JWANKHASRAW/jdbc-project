@@ -1,0 +1,16 @@
+select * from EMPLOYEES;
+
+select FIRST_NAME from EMPLOYEES;
+select FIRST_NAME,LAST_NAME, SALARY from EMPLOYEES
+where SALARY between 3000 and 5000;
+
+select * from LOCATIONS;
+select STREET_ADDRESS, POSTAL_CODE,CITY from LOCATIONS;
+
+select COUNTRY_NAME, REGION_ID from COUNTRIES;
+
+select FIRST_NAME, JOB_ID from EMPLOYEES;
+
+
+
+
